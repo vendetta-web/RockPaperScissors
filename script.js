@@ -44,9 +44,9 @@ function getComputerChoice() {
         break;
     }
   
-    let playerScore = document.getElementById('player-score')
+    // let playerScore = document.getElementById('player-score')
     let hands = document.getElementById('hands')
-    playerScore.innerText = `${Number(playerScore.innerText) + score}`
+    // playerScore.innerText = `${Number(playerScore.innerText) + score}`
       hands.innerText = `👱 ${playerChoice} vs 🤖 ${computerChoice}`
   }
   
